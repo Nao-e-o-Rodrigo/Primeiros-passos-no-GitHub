@@ -11,7 +11,7 @@ Projeto web interativo desenvolvido para mapear, visualizar e organizar a locali
 
 ## 🚀 Funcionalidades
 
-- **Visualização em Mapa Interativo:** Renderização da malha urbana via Leaflet e OpenStreetMap.
+- **Visualização em Mapa Interativo:** Renderização da malha urbana utilizando a biblioteca Leaflet integrada à base cartográfica da Esri.
 - **Marcadores Georreferenciados:** Localização dos postos de saúde da cidade com detalhes de endereço e atendimento.
 - **Estrutura Pronta para GIS:** Base organizada para posterior integração com setores censitários do IBGE e áreas de abrangência.
 
@@ -24,7 +24,7 @@ Projeto web interativo desenvolvido para mapear, visualizar e organizar a locali
 | **HTML5** | Estruturação da página web |
 | **JavaScript (ES6+)** | Lógica de renderização e manipulação do mapa |
 | **Leaflet.js** | Biblioteca JS para mapas interativos |
-| **OpenStreetMap** | Provedor das camadas do mapa |
+| **Esri World Street Map** | Provedor das camadas do mapa (TileLayer) |
 
 ---
 
@@ -32,25 +32,22 @@ Projeto web interativo desenvolvido para mapear, visualizar e organizar a locali
 
 Você não precisa de softwares pesados ou editores específicos para rodar a aplicação, apenas de um navegador de internet com conexão ativa.
 
-### Opção 1: Abrir diretamente pelo Navegador (Sem VSCode)
-1. Baixe os arquivos do projeto ou clone o repositório: (Obs: Você também pode clicar ali em code e "download ZIP")
-
+### Opção 1: Abrir diretamente pelo Navegador (Sem VS Code)
+1. Baixe os arquivos do projeto ou clone o repositório:
    ```bash
    git clone [https://github.com/Nao-e-o-Rodrigo/Primeiros-passos-nos-c-digos.git](https://github.com/Nao-e-o-Rodrigo/Primeiros-passos-nos-c-digos.git)
 
-3. Navegue até a pasta onde o projeto foi salvo.
-
-4. Dê dois cliques no arquivo index.html (ou Mapa 0.1.html).
-
-5. O mapa será aberto automaticamente no seu navegador padrão (Chrome, Edge, Firefox, etc.).
+(Obs: Você também pode clicar no botão verde Code no topo da página e selecionar Download ZIP)
+2. Navegue até a pasta onde o projeto foi baixado/descompactado.
+3. Dê dois cliques no arquivo index.html (ou Mapa 0.1.html).
+4. O mapa será aberto automaticamente no seu navegador padrão (Chrome, Edge, Firefox, etc.).
 
 Opção 2: Pelo VS Code (Para Desenvolvimento)
-Abra a pasta do projeto no VSCode.
+Abra a pasta do projeto no VS Code.
 
 Clique com o botão direito no arquivo .html e selecione Open with Live Server.
 
 👤 Autor
-
 Desenvolvido por Rodrigo Carpes Júnior
 
 GitHub: @Nao-e-o-Rodrigo
