@@ -12,7 +12,7 @@ Projeto web interativo desenvolvido para mapear, visualizar e organizar a locali
 ## 🚀 Funcionalidades
 
 - **Visualização em Mapa Interativo:** Renderização da malha urbana via Leaflet e OpenStreetMap.
-- **Marcadores Georreferenciados:** Localização de postos de saúde da cidade com detalhes de endereço e atendimento.
+- **Marcadores Georreferenciados:** Localização dos postos de saúde da cidade com detalhes de endereço e atendimento.
 - **Estrutura Pronta para GIS:** Base organizada para posterior integração com setores censitários do IBGE e áreas de abrangência.
 
 ---
@@ -22,24 +22,33 @@ Projeto web interativo desenvolvido para mapear, visualizar e organizar a locali
 | Tecnologia | Uso no Projeto |
 | :--- | :--- |
 | **HTML5** | Estruturação da página web |
+| **JavaScript (ES6+)** | Lógica de renderização e manipulação do mapa |
 | **Leaflet.js** | Biblioteca JS para mapas interativos |
-| **OpenStreetMap** | Provedor das camadas de mapa de fundo |
-| **VS Code / Live Server** | Ambiente de desenvolvimento local |
+| **OpenStreetMap** | Provedor das camadas do mapa |
 
 ---
 
 ## 📂 Como Executar o Projeto
 
-1. Clone este repositório ou baixe os arquivos:
+Você não precisa de softwares pesados ou editores específicos para rodar a aplicação, apenas de um navegador de internet com conexão ativa.
+
+### Opção 1: Abrir diretamente pelo Navegador (Sem VS Code)
+1. Baixe os arquivos do projeto ou clone o repositório:
    ```bash
    git clone [https://github.com/Nao-e-o-Rodrigo/Primeiros-passos-nos-c-digos.git](https://github.com/Nao-e-o-Rodrigo/Primeiros-passos-nos-c-digos.git)
 
-2. Abra a pasta do projeto no VS Code.
+2. Navegue até a pasta onde o projeto foi salvo.
 
-3. Inicie a extensão Live Server no arquivo index.html ou abra o arquivo diretamente no seu navegador.
+3. Dê dois cliques no arquivo index.html (ou Mapa 0.1.html).
+
+4. O mapa será aberto automaticamente no seu navegador padrão (Chrome, Edge, Firefox, etc.).
+
+Opção 2: Pelo VS Code (Para Desenvolvimento)
+Abra a pasta do projeto no VS Code.
+
+Clique com o botão direito no arquivo .html e selecione Open with Live Server.
 
 👤 Autor
 Desenvolvido por Rodrigo Carpes Júnior
 
 GitHub: @Nao-e-o-Rodrigo
-
