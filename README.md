@@ -33,9 +33,7 @@ Projeto web interativo desenvolvido para mapear, visualizar e organizar a locali
 Você não precisa de softwares pesados ou editores específicos para rodar a aplicação, apenas de um navegador de internet com conexão ativa.
 
 ### Opção 1: Abrir diretamente pelo Navegador (Sem VSCode)
-1. Baixe os arquivos do projeto ou clone o repositório:
-   Obs:Você também pode clicar ali em code e "download ZIP" 
-
+1. Baixe os arquivos do projeto ou clone o repositório: (Obs:Você também pode clicar ali em code e "download ZIP")
 
    ```bash
    git clone [https://github.com/Nao-e-o-Rodrigo/Primeiros-passos-nos-c-digos.git](https://github.com/Nao-e-o-Rodrigo/Primeiros-passos-nos-c-digos.git)
