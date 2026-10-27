@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postos de Saúde - Itaqui/RS</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <style>
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="map"></div>
+
+  <script>
+    // Centralização
+    const map = L.map('map').setView([-29.1265, -56.5515], 14);
+
+    // Camada de mapa do OpenStreetMap
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    // ESF's
+    const postosDeSaude = [
+      { nome: "Centro de Saude Atencao Basica de Itaqui", lat: -29.120935, lng: -56.555125, endereco: "Centro" },
+      { nome: "ESF 1 - Promorar", lat: -29.153678, lng: -56.544334, endereco: "Bairro Promorar" },
+      { nome: "ESF 2 - Vila Nova", lat: -29.146916, lng: -56.557786, endereco: "Bairro Vila Nova" },
+      { nome: "ESF 3 - Ênio Sayago", lat: -29.128908, lng: -56.560145, endereco: "Bairro Ênio Sayago" },
+      { nome: "ESF 4 - Cafifas", lat: -29.145090, lng: -56.543121, endereco: "Bairro Cafifas" },
+      { nome: "ESF 5 - José da Luz", lat: -29.137483, lng: -56.536897, endereco: "Bairro José da Luz" },
+      { nome: "ESF 6 - Rio Uruguai", lat: -29.120952, lng: -56.561734, endereco: "Bairro Rio Uruguai" },
+      { nome: "ESF 7 - Chácara", lat: -29.141460, lng: -56.548883, endereco: "Bairro Chácara" },
+      { nome: "ESF 8 - Dr. Ayub", lat: -29.136533, lng: -56.543343, endereco: "Bairro Dr. Ayub" },
+      { nome: "PAM / Atendimento de Urgência", lat: -29.132336, lng: -56.538553, endereco: "Anexo ao Hospital São Patrício/Bairro Cidade Alta" },
+      { nome: "Posto Central de Saúde", lat: -29.125806, lng: -56.556342, endereco: "Ao Lado da Farmácia Municipal/Bairro Centro" }
+    ];
+
+    // Balão/Pin. Obs: O mapa da cidade está dando os bairros erradamente.
+    postosDeSaude.forEach(posto => {
+      L.marker([posto.lat, posto.lng])
+        .addTo(map)
+        .bindPopup(`<b>${posto.nome}</b><br><small>${posto.endereco}</small>`);
+    });
+  </script>
+
+</body>
+</html>
