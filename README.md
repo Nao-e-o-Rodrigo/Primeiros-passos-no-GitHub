@@ -49,6 +49,7 @@ Abra a pasta do projeto no VS Code.
 Clique com o botão direito no arquivo .html e selecione Open with Live Server.
 
 👤 Autor
+
 Desenvolvido por Rodrigo Carpes Júnior
 
 GitHub: @Nao-e-o-Rodrigo
