@@ -33,13 +33,17 @@ Projeto web interativo desenvolvido para mapear, visualizar e organizar a locali
 Você não precisa de softwares pesados ou editores específicos para rodar a aplicação, apenas de um navegador de internet com conexão ativa.
 
 ### Opção 1: Abrir diretamente pelo Navegador (Sem VS Code)
+
 1. Baixe os arquivos do projeto ou clone o repositório:
    ```bash
    git clone [https://github.com/Nao-e-o-Rodrigo/Primeiros-passos-nos-c-digos.git](https://github.com/Nao-e-o-Rodrigo/Primeiros-passos-nos-c-digos.git)
 
 (Obs: Você também pode clicar no botão verde Code no topo da página e selecionar Download ZIP)
+
 2. Navegue até a pasta onde o projeto foi baixado/descompactado.
+
 3. Dê dois cliques no arquivo index.html (ou Mapa 0.1.html).
+
 4. O mapa será aberto automaticamente no seu navegador padrão (Chrome, Edge, Firefox, etc.).
 
 Opção 2: Pelo VS Code (Para Desenvolvimento)
